@@ -38,7 +38,8 @@ class _BasicFramePageState extends State<SecondBasicFrame> {
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
+          crossAxisAlignment: CrossAxisAlignment.center, // 중앙 정렬
+          mainAxisAlignment: MainAxisAlignment.start, // 위쪽에 위치
           children: [
             Text(
               '나의 여행 MBTI는?',
